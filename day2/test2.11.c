@@ -22,8 +22,10 @@ char swich(int a){
 }
 
 int main(){
-    unsigned int x=0x89ABCDEF;
-    unsigned int mask1=0xFF;
+    unsigned int x=0x98FEDCBA;
+    unsigned int mask1=0x111111FF;
     printf("%c\n",swich(14));
-    printf("%c",x&mask1);
+    printf("%x\n",x&mask1|0x0101000);
+    printf("%x\n",x^0xFF);
+    printf("%x\n",x&0xFFFFFF00);
 }

@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "C++",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\Program Files (x86)\\Microsoft SDKs\\MPI\\Include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath":"D:\\MinGW\\bin\\g++.exe", //填mingw的gcc路径
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64" //这里的名称会在运行之后自动修改
+        }
+    ],
+    "version": 4
+}
